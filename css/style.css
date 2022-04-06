@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap'); /*se enlaza el link de de google font*/
+
+
+body{
+    background: url(../imagenes/fondo.jpg); /*../ para salir de una carpeta y / para abrir otra y poner la ruta de la imagen*/
+    text-align: center; /*se usa para centrar el titulo*/
+    background-size: cover; /*se usa para que la imagen se adapte al fondo del archivo*/
+    font-family: 'Roboto Mono', monospace; /*se agrega el link que da google font "CSS rules to specify families"*/
+    padding-top: 90px;
+}
+
+button{
+    padding: 12px 60px;   /*Los lados de los cuadros*/
+    
+    margin: 30px;  /*para las margenes de los botones*/
+    font-size: 24px; /*tamaño de fuente de texto*/
+    background: #000000; /*color de fondo de los bottones*/
+    color: #ffffff; /*color del texto de los botones*/
+    border-radius: 20px; /*grosor del borde*/
+    border: 4px solid #ffffff;  /*estilo del borde y color*/
+    cursor: pointer; /*para que el puntero del muse sea visible sobre el boton*/
+    transition: .5s;  /*el tiempo del cursor sobre el boton para notarse el cambio*/
+}
+
+button:hover{  /*configuraciones del puntero del muse sobre los botones*/
+    background: #ffffff; /*configuración de colores del puntero al pasar por un botón*/
+    color: #000000;  /*color del texto al poner el cursor*/
+    padding: 12px 80px;  /*ancho del boton al poner el cursor*/
+border-radius: 0; /*cambia la forma del boton al poner el cursor*/
+}
+h1{  /*los ajustes del titulo 1*/
+    color: #ffffff;
+    font-size: 40px;
+
+}
+h2{  /*los ajustes del titulo 2*/
+    color: #ffffff;
+    font-size: 30px;   /*se ajusta el tamaño del texto en pixeles*/
+}
